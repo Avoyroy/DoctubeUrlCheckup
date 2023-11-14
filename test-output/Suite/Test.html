@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 14 20:03:57 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>429 seconds (429827 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.doctube.pages.HomepageApi.homeLink()'><b>homeLink</b><br>Test class: com.doctube.pages.HomepageApi<br>Parameters: https://www.doctube.com</td>
+<td></td>
+<td>93</td>
+<td>com.doctube.pages.HomepageApi@2dd80673</td></tr>
+<tr>
+<td title='com.doctube.pages.HomepageApi.homeLink()'><b>homeLink</b><br>Test class: com.doctube.pages.HomepageApi<br>Parameters: https://doctube.com/channels</td>
+<td></td>
+<td>166</td>
+<td>com.doctube.pages.HomepageApi@2dd80673</td></tr>
+<tr>
+<td title='com.doctube.pages.TestUrl.fun()'><b>fun</b><br>Test class: com.doctube.pages.TestUrl<br>Parameters: https://doctube.com/tag/102</td>
+<td></td>
+<td>0</td>
+<td>com.doctube.pages.TestUrl@21de60b4</td></tr>
+<tr>
+<td title='com.doctube.pages.HomepageApi.homeLink()'><b>homeLink</b><br>Test class: com.doctube.pages.HomepageApi<br>Parameters: https://doctube.com/tag/102</td>
+<td></td>
+<td>27</td>
+<td>com.doctube.pages.HomepageApi@2dd80673</td></tr>
+<tr>
+<td title='com.doctube.pages.HomepageApi.homeLink()'><b>homeLink</b><br>Test class: com.doctube.pages.HomepageApi<br>Parameters: https://doctube.com/watch/%E0%A4%97%E0%A4%B0-%E0%A4%AD%E0%A4%A8-%E0%A4%B0-%E0%A4%A7%E0%A4%95-%E0%A4%94%E0%A4%B0-%E0%A4%87%E0%A4%B8%E0%A4%95-%E0%A4%AA-%E0%A4%B0%E0%A4%95-%E0%A4%B0-%E0%A4%95-%E0%A4%AC-%E0%A4%B0-%E0%A4%AE-%E0%A4%9C-%E0%A4%A8_b2lxss1RYaLINGm.html/list/4x62b5nDzkdYkaw</td>
+<td></td>
+<td>32</td>
+<td>com.doctube.pages.HomepageApi@2dd80673</td></tr>
+<tr>
+<td title='com.doctube.pages.TestUrl.fun()'><b>fun</b><br>Test class: com.doctube.pages.TestUrl<br>Parameters: https://www.doctube.com</td>
+<td></td>
+<td>0</td>
+<td>com.doctube.pages.TestUrl@21de60b4</td></tr>
+<tr>
+<td title='com.doctube.pages.HomepageApi.homeLink()'><b>homeLink</b><br>Test class: com.doctube.pages.HomepageApi<br>Parameters: https://doctube.com/explore</td>
+<td></td>
+<td>72</td>
+<td>com.doctube.pages.HomepageApi@2dd80673</td></tr>
+<tr>
+<td title='com.doctube.pages.TestUrl.fun()'><b>fun</b><br>Test class: com.doctube.pages.TestUrl<br>Parameters: https://doctube.com/shorts</td>
+<td></td>
+<td>0</td>
+<td>com.doctube.pages.TestUrl@21de60b4</td></tr>
+<tr>
+<td title='com.doctube.pages.HomepageApi.homeLink()'><b>homeLink</b><br>Test class: com.doctube.pages.HomepageApi<br>Parameters: https://doctube.com/shorts</td>
+<td></td>
+<td>16</td>
+<td>com.doctube.pages.HomepageApi@2dd80673</td></tr>
+<tr>
+<td title='com.doctube.pages.TestUrl.fun()'><b>fun</b><br>Test class: com.doctube.pages.TestUrl<br>Parameters: https://doctube.com/watch/%E0%A4%97%E0%A4%B0-%E0%A4%AD%E0%A4%A8-%E0%A4%B0-%E0%A4%A7%E0%A4%95-%E0%A4%94%E0%A4%B0-%E0%A4%87%E0%A4%B8%E0%A4%95-%E0%A4%AA-%E0%A4%B0%E0%A4%95-%E0%A4%B0-%E0%A4%95-%E0%A4%AC-%E0%A4%B0-%E0%A4%AE-%E0%A4%9C-%E0%A4%A8_b2lxss1RYaLINGm.html/list/4x62b5nDzkdYkaw</td>
+<td></td>
+<td>0</td>
+<td>com.doctube.pages.TestUrl@21de60b4</td></tr>
+<tr>
+<td title='com.doctube.pages.TestUrl.fun()'><b>fun</b><br>Test class: com.doctube.pages.TestUrl<br>Parameters: https://doctube.com/explore</td>
+<td></td>
+<td>0</td>
+<td>com.doctube.pages.TestUrl@21de60b4</td></tr>
+<tr>
+<td title='com.doctube.pages.TestUrl.fun()'><b>fun</b><br>Test class: com.doctube.pages.TestUrl<br>Parameters: https://doctube.com/dr-anurag-singh-thakur</td>
+<td></td>
+<td>0</td>
+<td>com.doctube.pages.TestUrl@21de60b4</td></tr>
+<tr>
+<td title='com.doctube.pages.TestUrl.fun()'><b>fun</b><br>Test class: com.doctube.pages.TestUrl<br>Parameters: https://doctube.com/channels</td>
+<td></td>
+<td>0</td>
+<td>com.doctube.pages.TestUrl@21de60b4</td></tr>
+<tr>
+<td title='com.doctube.pages.HomepageApi.homeLink()'><b>homeLink</b><br>Test class: com.doctube.pages.HomepageApi<br>Parameters: https://doctube.com/dr-anurag-singh-thakur</td>
+<td></td>
+<td>20</td>
+<td>com.doctube.pages.HomepageApi@2dd80673</td></tr>
+</table><p>
+</body>
+</html>
